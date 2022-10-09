@@ -14,7 +14,7 @@ There is no installation needed - everything is running in the browser. At least
 
 ## Usage
 
-Just click on the links shown on main site. Nothing more.
+Just click on the links shown on main site. Nothing more. <br>
 <a href="https://todiez.github.io/xProEx/module09/realTimeBusTracker/index.html"> Module 9 - Real Time Tracker</a>
 
 
