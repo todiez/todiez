@@ -9,13 +9,40 @@ h1 {
 }
 
 
-.content {
+.content-index {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 10px;
-    
-    padding-top: 30px;
+    gap: 3em;
+    padding-top: 3em;
 }
+.content-bio {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr ;
+    gap: 3em;
+    padding-top: 3em;
+}
+
+a:link {
+    color: darkgray;
+  } 
+  /* visited link */
+ a:visited {
+    color: darkgray;
+  }
+  /* mouse over link */
+ a:hover {
+    color: lightcoral;
+  }
+
+  .nav-link {
+    
+  }
+
+  .bio-contact {
+    padding-top: 6em;
+    text-align: right;
+  }
+  
 
 
 
