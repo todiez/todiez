@@ -1,0 +1,55 @@
+h1 {
+  color: black;
+  text-align: left;
+  
+}
+
+#yT {
+    text-align: right;
+}
+
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    
+    padding-top: 30px;
+}
+
+
+
+
+
+/* nav{
+    grid-column: 2 / 2;
+} */
+  
+
+
+/* div {
+    background-color: cadetblue;
+    padding: 30px; 
+    text-align: center;
+  }
+  div:nth-of-type(odd) {
+    background-color: burlywood;
+  
+  } */
+
+/* h3 {color: beige; }
+body {background-color: rgb(32, 26, 23); position: relative; color:beige;}
+img {margin: 50 50 50 50; max-width: 800; position: relative;}
+table {margin: auto}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: beige;
+    background-color: transparent;
+    text-decoration: underline;
+}   */
