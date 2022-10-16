@@ -1,7 +1,14 @@
 h1 {
-  color: black;
+  color: #1f363d;
   text-align: left;
 }
+h3 {
+  color: #1f363d;
+}
+
+/*
+https://coolors.co/1f363d-40798c-70a9a1-9ec1a3-cfe0c3
+*/
 
 #yT {
   text-align: right;
@@ -11,7 +18,7 @@ h1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 3em;
-  padding-top: 5em;
+  padding-top: 5em;  
 }
 .content-bio {
   display: grid;
@@ -24,25 +31,46 @@ h1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 3em;
-  padding-top: 3em;
+  padding-top: 5em;
 }
 
 .navbar-nav a:link {
-  color: darkgray;
+  color: #9ec1a3;
 }
 
 .navbar-nav a:visited {
-  color: darkgray;
+  color: #9ec1a3;
 }
 
 .navbar-nav a:hover {
-  color: lightcoral;
+  color: #cfe0c3;
 }
 
 .nav-item-bio {
   padding: 1em;
   text-align: right;
 }
+
+body {
+  background: url(./pic/so-white.png), url(./pic/bg.png);  
+  background-blend-mode: multiply;
+}
+
+
+a:link {
+  color: #70a9a1;
+}
+
+a:visited {
+  color: #70a9a1;
+}
+
+
+a:hover {
+  color: #9ec1a;
+}
+
+
 
 /* nav{
     grid-column: 2 / 2;
