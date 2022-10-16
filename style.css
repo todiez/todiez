@@ -22,15 +22,15 @@ h1 {
     padding-top: 3em;
 }
 
-a:link {
+.navbar-nav a:link {
     color: darkgray;
   } 
 
- a:visited {
+.navbar-nav a:visited {
     color: darkgray;
   }
  
- a:hover {
+.navbar-nav a:hover {
     color: lightcoral;
   }
 
