@@ -22,6 +22,13 @@ h1 {
     padding-top: 3em;
 }
 
+.content-projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 3em;
+  padding-top: 3em;
+}
+
 .navbar-nav a:link {
     color: darkgray;
   } 
@@ -36,13 +43,11 @@ h1 {
 
 
 
-  .bio-contact {
-    padding-top: 6em;
-    text-align: right;
-  }
-  
 
-
+.nav-item-bio {
+  padding: 1em;
+  text-align: right;
+}
 
 
 
