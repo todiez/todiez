@@ -25,18 +25,16 @@ h1 {
 a:link {
     color: darkgray;
   } 
-  /* visited link */
+
  a:visited {
     color: darkgray;
   }
-  /* mouse over link */
+ 
  a:hover {
     color: lightcoral;
   }
 
-  .nav-link {
-    
-  }
+
 
   .bio-contact {
     padding-top: 6em;
