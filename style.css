@@ -46,6 +46,10 @@ https://coolors.co/1f363d-40798c-70a9a1-9ec1a3-cfe0c3
   color: #cfe0c3;
 }
 
+.feat-proj a:hover {
+  color: lightcoral;
+}
+
 .nav-item-bio {
   padding: 1em;
   text-align: right;
