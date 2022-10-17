@@ -2,7 +2,8 @@ h1 {
   color: #1f363d;
   text-align: left;
 }
-h2, h3 {
+h2,
+h3 {
   color: #1f363d;
 }
 
@@ -18,7 +19,7 @@ https://coolors.co/1f363d-40798c-70a9a1-9ec1a3-cfe0c3
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 3em;
-  padding-top: 5em;  
+  padding-top: 5em;
 }
 .content-bio {
   display: grid;
@@ -31,6 +32,13 @@ https://coolors.co/1f363d-40798c-70a9a1-9ec1a3-cfe0c3
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 3em;
+  padding-top: 5em;
+}
+
+.content-purchasing {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1em;
   padding-top: 5em;
 }
 
@@ -56,24 +64,32 @@ https://coolors.co/1f363d-40798c-70a9a1-9ec1a3-cfe0c3
 }
 
 body {
-  background: url(./pic/so-white.png), url(./pic/bg.png);  
+  background: url(./pic/so-white.png), url(./pic/bg.png);
   background-blend-mode: multiply;
 }
 
-
 a:link {
-  color: #40798C;
+  color: #40798c;
 }
 
 a:visited {
-  color: #40798C;
+  color: #40798c;
 }
-
 
 a:hover {
   color: #70a9a1;
 }
 
+.content-purchasing img:hover {
+  opacity: 0.6; 
+}
+
+.content-purchasing div {
+  margin-bottom: 1em;
+}
+.grid-wide-column {
+  grid-column:  2 / 4;
+}
 
 
 /* nav{
