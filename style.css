@@ -1,7 +1,9 @@
-h1 {
-  color: #1f363d;
-  text-align: left;
+body {
+  background: url(./pic/so-white.png), url(./pic/bg.png);
+  background-blend-mode: multiply;
 }
+
+h1,
 h2,
 h3 {
   color: #1f363d;
@@ -11,67 +13,41 @@ h3 {
 https://coolors.co/1f363d-40798c-70a9a1-9ec1a3-cfe0c3
 */
 
-#yT {
-  text-align: right;
-}
-
-.content-index {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 3em;
-  padding-top: 5em;
-}
-.content-bio {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  gap: 3em;
-  padding-top: 3em;
-}
-
-.content-projects {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 3em;
-  padding-top: 5em;
-}
-
+.content-index,
+.content-bio,
+.content-projects,
 .content-purchasing {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 1em;
-  padding-top: 5em;
+  padding-top: 3em;
 }
 
-.navbar-nav a:link {
-  color: #9ec1a3;
-}
-
+/* ------------------------- */
+.navbar-nav a:link,
 .navbar-nav a:visited {
   color: #9ec1a3;
 }
-
 .navbar-nav a:hover {
   color: #cfe0c3;
 }
+/* ------------------------------- */
 
 .feat-proj a:hover {
   color: lightcoral;
 }
+.feat-proj{
+  padding-bottom: 2em;
+}
+
 
 .nav-item-bio {
   padding: 1em;
   text-align: right;
+  /* float:left" */
 }
 
-body {
-  background: url(./pic/so-white.png), url(./pic/bg.png);
-  background-blend-mode: multiply;
-}
-
-a:link {
-  color: #40798c;
-}
-
+a:link,
 a:visited {
   color: #40798c;
 }
@@ -81,44 +57,26 @@ a:hover {
 }
 
 .content-purchasing img:hover {
-  opacity: 0.6; 
+  opacity: 0.6;
 }
 
 .content-purchasing div {
   margin-bottom: 1em;
 }
 .grid-wide-column {
-  grid-column:  2 / 4;
+  grid-column: 2 / 4;
 }
 
 
-/* nav{
-    grid-column: 2 / 2;
-} */
-
-/* div {
-    background-color: cadetblue;
-    padding: 30px; 
-    text-align: center;
-  }
-  div:nth-of-type(odd) {
-    background-color: burlywood;
-  
-  } */
-
-/* h3 {color: beige; }
-body {background-color: rgb(32, 26, 23); position: relative; color:beige;}
-img {margin: 50 50 50 50; max-width: 800; position: relative;}
-table {margin: auto}
-
-a:link {
-    color: black;
-    background-color: transparent;
-    text-decoration: none;
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
 }
 
-a:hover {
-    color: beige;
-    background-color: transparent;
-    text-decoration: underline;
-}   */
+.bio-link {
+  margin-left: 2em;
+}

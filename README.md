@@ -23,7 +23,7 @@ Just click on the links shown on main site. Nothing more. <br>
 
 ## Support
 
-You are welcome to contact me via tobias@diez.guru
+You are welcome to contact me via mail@diez.guru
 
 
 
