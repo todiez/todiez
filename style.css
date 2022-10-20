@@ -19,7 +19,7 @@ https://coolors.co/1f363d-40798c-70a9a1-9ec1a3-cfe0c3
 .content-purchasing {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 1em;
+  gap: 2em;
   padding-top: 3em;
 }
 
@@ -56,7 +56,8 @@ a:hover {
   color: #70a9a1;
 }
 
-.content-purchasing img:hover {
+.content-purchasing img:hover,
+.content-projects img:hover {
   opacity: 0.6;
 }
 
