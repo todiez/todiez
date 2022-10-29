@@ -4,7 +4,7 @@ This is my portfolio of all my released excercises on github to show the world m
 in becoming a full stack web developer. I'm doing the course at MIT xPro and it is called
 *Professional Certificate in Coding: Full Stack Development with MERN* 
   
-<img src="pic/Blockie.png">
+<img src="pic/Blockie.png" width='100'/>
 
 
 
