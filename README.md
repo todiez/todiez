@@ -37,6 +37,5 @@ Depending on the learning schedule of the course but in general:
 
 
 
-## License
-
-Not applicable nor needed.
+## License information
+see seperate license file.
